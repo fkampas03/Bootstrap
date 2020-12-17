@@ -10,17 +10,93 @@
     <title>FibFlo</title>
   </head>
   <body>
-    <header>
-      <nav></nav>
+    <header class="header">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <!---Home-Logo--->
+          <a class="navbar-brand" href="#"><img src="img/Logo.png" alt="Logo" width="30" height="24"></a>
+          <!---Button for the icon--->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarInhalt" aria-controls="navbarInhalt" aria-expanded="false" aria-label="Toggle navigation">
+            <!---Icon--->
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!---Elements of the navigation bar--->
+          <div class="collapse navbar-collapse" id="navbarInhalt">
+            <ul class="navbar-nav ms-auto"><!--- mb-2 mb-lg-0--->
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#musik">Music</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main>
-      <section id="#home"></section>
-      <section id="#about">
+      <section id="home"></section>
+      <section id="about">
+        <div class="container-md">
+          <div class="row reiheAbstand">
+            <div class="col-xxl-0 col-xl-0 col-lg-0 col-md-12 col-sm-12 col-sx-12 obersterTitel text-center">
+              <h1 class="display-1">FibFlo</h1>
+            </div>
+            <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-0 col-sm-0 col-sx-0"></div>
+            <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-0 col-sm-0 col-sx-0"></div>
+            <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-0 col-sm-0 col-sx-0"></div>
+            <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-0 col-sm-0 col-sx-0 d-flex align-items-center">
+              <h1 class="display-1 zweiterTitel">Fib</h1>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-sx-12 text-center">
+                <img src="img/p3.png" alt="Portrait" class="portrait">
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-0 col-sm-0 col-sx-0 text-start d-flex align-items-center">
+              <h1 class="display-1 zweiterTitel">Flo</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-sx-12 text-center">
+                <h1 class="display-1">Info</h1>
+            </div>
+          </div>
+          <div class="row reiheAbstand3">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-sx-12">
+              <p class="textLeft">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-12 col-sm-12 col-sx-12"></div>
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-sx-12">
+              <div class="divlinks">
+                <a href="#" class="h2 links">Stop-Motion-Video</a>
+                <a href="#" class="h2 links">Gallery</a>
+              </div>
+              <div class="divSocialMedia">
+                <div class="divlinks">
+                  <a href="#"><img src="img/Spotify.png" alt="Spotify"></a>
+                  <a href="#"><img src="img/Instagram.png" alt="Instagram"></a>
+                  <a href="#"><img src="img/YouTube.png" alt="Youtube"></a>
+                </div>
+                <div class="divlinks">
+                  <a href="#"><img src="img/Fanlink.png" alt="Fanlink"></a>
+                  <a href="#"><img src="img/Discord.png" alt="Discord"></a>
+                  <a href="#"><img src="img/Facebook.png" alt="Facebook"></a>
+                </div>
+              </div>
 
-
+            </div>
+            <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-12 col-sm-12 col-sx-12"></div>
+          </div>
+        </div>
       </section>
-      <section id="#musik">
+      <section id="musik">
         <div class="py-5 container">
             <div class="row justify-content-center text-center">
                 <div class="col-6">
@@ -137,7 +213,7 @@
             </div>
         </div>
       </section>
-      <section id="#contact"></section>
+      <section id="contact"></section>
     </main>
 
     <footer>
