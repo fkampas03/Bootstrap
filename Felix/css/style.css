@@ -1,0 +1,41 @@
+.reiheAbstand {
+  margin-top: 4%;
+}
+.reiheAbstand3  {
+  margin-top: 2%;
+}
+.portrait {
+  width: 80%;
+}
+.textLeft {
+  text-align:justify;
+  margin-right: 8%;
+}
+.links  {
+  text-decoration: none;
+  color: black;
+}
+.divlinks {
+  text-align: center;
+  padding: 5%;
+}
+
+.divlinks img {
+  width: 30%;
+}
+
+.obersterTitel  {
+  display: none;
+}
+.zweiterTitel {
+  display: flex;
+}
+
+@media all and (max-width: 992px) {
+  .obersterTitel  {
+    display: inline;
+  }
+  .zweiterTitel {
+    display: none;
+  }
+}
