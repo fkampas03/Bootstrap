@@ -1,6 +1,15 @@
 body  {
   box-sizing: border-box;
 }
+
+.height-200 {
+  height: 200px;
+}
+
+.height-100 {
+  height: 100px;
+}
+
 .reiheAbstand {
   margin-top: 4%;
 }
@@ -40,8 +49,10 @@ body  {
   .zweiterTitel {
     display: none;
   }
+  .height-200 {
+    height: 300px;
+  }
 }
 .footerText{
   margin: 0;
 }
-
