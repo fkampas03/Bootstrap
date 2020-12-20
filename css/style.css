@@ -1,3 +1,47 @@
 body  {
   box-sizing: border-box;
 }
+.reiheAbstand {
+  margin-top: 4%;
+}
+.reiheAbstand3  {
+  margin-top: 2%;
+}
+.portrait {
+  width: 80%;
+}
+.textLeft {
+  text-align:justify;
+  margin-right: 8%;
+}
+.links  {
+  text-decoration: none;
+}
+.divlinks {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.divlinks img {
+  width: 10%;
+}
+
+.obersterTitel  {
+  display: none;
+}
+.zweiterTitel {
+  display: flex;
+}
+
+@media all and (max-width: 992px) {
+  .obersterTitel  {
+    display: inline;
+  }
+  .zweiterTitel {
+    display: none;
+  }
+}
+.footerText{
+  margin: 0;
+}
+
